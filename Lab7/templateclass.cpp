@@ -22,4 +22,4 @@ int main()
     mypair<float> m1(20.9, 20.1);
     cout << m1.getmax() << " is greater. " << endl;
     return 0;
-}
+} 
