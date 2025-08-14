@@ -1,19 +1,23 @@
-#include<iostream>
-#include<fstream>
-#include<string>
+#include <iostream>
+#include <fstream>
+#include <string>
 using namespace std;
-int main() {
+int main()
+{
 
     ifstream myFile;
     myFile.open("example.txt");
-    if(!myFile){
-        cerr<<"problem in file"<<endl;
+    if (!myFile)
+    {
+        cerr << "problem in file" << endl;
     }
-    else {
+    else
+    {
         char ch;
-        while(!myFile.eof()){
-            myFile>>ch;
-            cout<<ch;
+        while (!myFile.eof())
+        {
+            myFile >> ch;
+            cout << ch;
         }
     }
     myFile.close();

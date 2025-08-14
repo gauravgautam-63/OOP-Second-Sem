@@ -13,8 +13,8 @@ int main()
     else
     {
         char str[100];
-        gaurav.getline(str,100);
-        cout<<str<<endl;
+        gaurav.getline(str, 100);
+        cout << str << endl;
     }
     gaurav.close();
     return 0;
